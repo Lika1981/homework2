@@ -1,4 +1,4 @@
-package lessons.lessons3.calculator;
+package lessons.lesson.lessons3.calculator;
 
 public class CalculatorUserInputExample {
     public static void main(String[] args){
