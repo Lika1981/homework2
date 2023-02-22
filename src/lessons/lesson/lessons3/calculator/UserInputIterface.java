@@ -21,4 +21,10 @@ public class UserInputIterface {
 
 
     }
+
+    public static int userArraySizeInput(String s){
+
+        return 0;
+
+    }
 }
