@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac940076-caf7-4f8f-949a-661190ae2078" name="Changes" comment="task" />
+    <list default="true" id="ac940076-caf7-4f8f-949a-661190ae2078" name="Changes" comment="homeworks3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,12 +167,27 @@
       <option name="project" value="LOCAL" />
       <updated>1677098478891</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="homeworks">
+      <created>1677098992224</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677098992224</updated>
+    </task>
+    <task id="LOCAL-00007" summary="homeworks">
+      <created>1677099025713</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677099025713</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="homeworks3" />
     <MESSAGE value="task" />
-    <option name="LAST_COMMIT_MESSAGE" value="task" />
+    <MESSAGE value="homeworks" />
+    <MESSAGE value="homeworks3" />
+    <option name="LAST_COMMIT_MESSAGE" value="homeworks3" />
   </component>
 </project>
