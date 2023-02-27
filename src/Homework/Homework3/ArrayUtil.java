@@ -1,38 +1,84 @@
 package Homework.Homework3;
 
+import java.util.Arrays;
 public class ArrayUtil {
-    public static int[] createArray(int arrayLength){
-        return new int[arrayLength];
-
-
+    public static int[] createArray(int arraySize) {
+        return new int[0];
     }
 
     public static void fillArrayWithRandomNumbers(int[] ourWorkingArray, int i, int i1) {
-
     }
 
     public static void printArrayInRow(int[] ourWorkingArray) {
-        for (int i = 0; i < ourWorkingArray.length; i++) {
-            System.out.printf("%02d", ourWorkingArray[i]);
-
-            System.out.println();
-
-        }
-    }
-
-    public static void replaceOddToZero(int[] ourWorkingArray) {
-        for (int i = 0; i < ourWorkingArray.length; i++){
-            if (i % 2==0){
-                ourWorkingArray[i] = 0;
-
-            }
-        }
     }
 
     public static boolean checkIncreasingArray(int[] ourWorkingArray) {
         return false;
     }
 
-    {
+    public static void replaceOddToZero(int[] ourWorkingArray) {
     }
-}
+
+    public int[] fillRandomValues(int[] workingArray, int minBound, int maxBound, boolean isUniq) {
+        for (int i = 0; i < workingArray.length; i++) {
+            if (isUniq) {
+                workingArray[i] =
+                        getNewUniqRandomValue(
+                                Arrays.copyOf(workingArray, i + 1),
+                                minBound,
+                                maxBound);
+            } else {
+                workingArray[i] = (int) (Math.random() * (maxBound - minBound + 1)) + minBound;
+            }
+        }
+
+        return workingArray;
+    }
+
+    private int getNewUniqRandomValue(int[] workingArray, int minBound, int maxBound) {
+        int newValue;
+        boolean isInArray;
+
+        do {
+            newValue = (int) (Math.random() * (maxBound - minBound + 1)) + minBound;
+            isInArray = checkIsExistsNumberInArray(workingArray, newValue);
+        } while (isInArray);
+
+        return newValue;
+    }
+
+    public boolean checkIsExistsNumberInArray(int[] workingArray, int searchNumber) {
+        Arrays.sort(workingArray);
+        return (Arrays.binarySearch(workingArray, searchNumber) >= 0);
+    }
+
+    public int searchNotExistsNumber(int[] workingArray, int maxNumber) {
+        int searchNumber = -1;
+
+        Arrays.sort(workingArray);
+
+        for (int i = 1; i <= maxNumber; i++) {
+            if (Arrays.binarySearch(workingArray, i) < 0) {
+                searchNumber = i;
+                break;
+            }
+        }
+
+        return searchNumber;
+    }
+
+    public int countPairEqualsNumber(int[] workingArray, int sumNumber) {
+        int count = 0;
+
+        for (int i = 0; i < workingArray.length - 1; i++) {
+            for (int j = i + 1; j < workingArray.length; j++) {
+                if ((workingArray[i] + workingArray[j]) == sumNumber) {
+                    System.out.printf("%d) A[%d] + A[%d] = %d + %d = %d \n", count + 1, i, j, workingArray[i], workingArray[j], sumNumber);
+                    count++;
+                }
+            }
+        }
+        return count;
+
+        }
+    }

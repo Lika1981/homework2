@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac940076-caf7-4f8f-949a-661190ae2078" name="Changes" comment="homeworks3" />
+    <list default="true" id="ac940076-caf7-4f8f-949a-661190ae2078" name="Changes" comment="homeworks">
+      <change afterPath="$PROJECT_DIR$/src/Homework/Homework4/Task_Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/Homework4/Task_Array2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/Homework4/UserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Homework3/ArrayDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Homework3/ArrayDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Homework3/ArrayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Homework3/ArrayUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/Homework3/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/Homework3/UserInterface.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +26,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--tags" />
@@ -41,13 +50,14 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArraysIntegers">
+  <component name="RunManager" selected="Application.Task_Array">
     <configuration name="ArrayDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework.Homework3.ArrayDemo1" />
       <module name="BasicJava240123my" />
@@ -87,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BrokenLiftDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework.homework2.BrokenLiftDemo" />
+    <configuration name="Task_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework.Homework4.Task_Array" />
       <module name="BasicJava240123my" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework.homework2.*" />
+          <option name="PATTERN" value="Homework.Homework4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserInputIterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lessons.lesson.lessons3.calculator.UserInputIterface" />
+    <configuration name="Task_Array2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework.Homework4.Task_Array2" />
       <module name="BasicJava240123my" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lessons.lesson.lessons3.calculator.*" />
+          <option name="PATTERN" value="Homework.Homework4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task_Array" />
+        <item itemvalue="Application.Task_Array2" />
         <item itemvalue="Application.ArraysIntegers" />
         <item itemvalue="Application.ArrayDemo1" />
         <item itemvalue="Application.ArrayDemo2" />
-        <item itemvalue="Application.UserInputIterface" />
-        <item itemvalue="Application.BrokenLiftDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -181,13 +191,27 @@
       <option name="project" value="LOCAL" />
       <updated>1677099025713</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="homeworks3">
+      <created>1677099155095</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677099155095</updated>
+    </task>
+    <task id="LOCAL-00009" summary="homeworks">
+      <created>1677099210295</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677099210296</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="task" />
-    <MESSAGE value="homeworks" />
     <MESSAGE value="homeworks3" />
-    <option name="LAST_COMMIT_MESSAGE" value="homeworks3" />
+    <MESSAGE value="homeworks" />
+    <option name="LAST_COMMIT_MESSAGE" value="homeworks" />
   </component>
 </project>
